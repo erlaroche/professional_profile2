@@ -5,13 +5,13 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: ruby 2.1.2p95
 
-* System dependencies
+* System dependencies: Foundation
 
 * Configuration
 
-* Database creation
+* Database creation: Built on Sqlite3, but Postgres for Heroku Deployment
 
 * Database initialization
 
