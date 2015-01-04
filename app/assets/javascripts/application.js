@@ -17,3 +17,7 @@
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
+$(document).ready(function(){
+	// alert("Hello World");
+	$('img').hide().fadeIn(4000);
+});
