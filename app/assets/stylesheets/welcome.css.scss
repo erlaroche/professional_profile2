@@ -1,9 +1,17 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+/*universal styles*/
+body {
+	background-image: image-url('blue.jpg');
+	font-family: Verdana;
+}
 /*center name*/
 h1.name {
 	text-align: center;
+	border: 2px solid black;
+	border-radius: 15px;
+	font-size: 60px;
 }
 /*resize twitter image */
 img.twitter {
@@ -28,9 +36,24 @@ img.emma {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: -25px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+.technology {
+	background-color: #b2b2ff;
+	border: 2px solid black;
+	border-radius: 15px;
+	text-align: center;
+}
+/*create dividing divs*/
+.opacity {
+	height: 500px;
+}
+.row {
+	background-color: #e5e5ff;
 }
