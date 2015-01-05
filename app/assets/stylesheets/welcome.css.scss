@@ -11,8 +11,11 @@ h1.name {
 	text-align: center;
 	border: 2px solid black;
 	border-radius: 15px;
-	font-size: 60px;
+	font-size: 40px;
 	margin-top: 60px;
+	margin-left: 30px;
+	margin-right: -250px;
+	background-color: #e5e5ff;
 }
 /*resize twitter image */
 img.twitter {
@@ -30,6 +33,18 @@ img.linkedin {
 	height: 100px;
 	border: 2px solid black;
 	border-radius: 15px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+/*resize octocat img*/
+img.octocat {
+	height: 200px;
+	border: 2px solid black;
+	border-radius: 15px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -55,7 +70,14 @@ img.emma {
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
+/*style for content*/
 .technology {
+	background-color: #b2b2ff;
+	border: 2px solid black;
+	border-radius: 15px;
+	text-align: center;
+}
+.makersquare {
 	background-color: #b2b2ff;
 	border: 2px solid black;
 	border-radius: 15px;
@@ -63,8 +85,41 @@ img.emma {
 }
 /*create dividing divs*/
 .opacity {
-	height: 500px;
+	height: 200px;
 }
-.row {
+/*.row {
 	background-color: #e5e5ff;
+}*/
+/*add parallax effect*/
+.parallax {
+	position: fixed;
+	height: 90%;
+	width: 90%;
+	top: 0;
 }
+ /*unvisited link*/
+a:link {
+    color: #663300;
+}
+
+ /*visited link */
+a:visited {
+    color: 	#291400;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: purple;
+}
+a:hover.button {
+	cursor: pointer;
+}
+.button {
+	box-shadow: 10px 10px 5px #888888;
+}
+
