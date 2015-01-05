@@ -6,6 +6,13 @@ body {
 	background-image: image-url('blue.jpg');
 	font-family: Verdana;
 }
+/*style contact info*/
+address {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 /*center name*/
 h1.name {
 	text-align: center;
@@ -70,6 +77,17 @@ img.emma {
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
+/*resize email img*/
+img.email {
+	height: 200px;
+	text-align: center;
+	margin-left: -235px;
+	border: 2px solid black;
+	border-radius: 15px;
+	font-size: 40px;
+	margin-right: -250px;
+	background-color: #e5e5ff;
+}
 /*style for content*/
 .technology {
 	background-color: #b2b2ff;
@@ -83,6 +101,7 @@ img.emma {
 	border-radius: 15px;
 	text-align: center;
 }
+
 /*create dividing divs*/
 .opacity {
 	height: 200px;

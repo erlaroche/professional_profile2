@@ -6,11 +6,13 @@
 </div>
 
 <div class="row">
-	  <div class="small-6 columns"><a href="https://twitter.com/GoddessInnana"><img class="twitter button" src="http://designpieces.com/wp-content/uploads/2013/01/shape-twitter.png"></a>
+	  <div class="small-6 columns"><a href="https://twitter.com/GoddessInnana" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><!-- <img class="twitter button" src="http://designpieces.com/wp-content/uploads/2013/01/shape-twitter.png"> -->
+	  <%= image_tag "twitter.png", class: 'twitter button' %></a>
 	  </div>
-	  <div class="small-6 columns"><a href="https://www.linkedin.com/pub/emma-laroche/3a/111/8b9"><img class="linkedin button" src="http://www.iconpng.com/png/ios7_icons/linkedin.png"></a></div>
+	 
+	  <div class="small-6 columns"><a href="https://www.linkedin.com/pub/emma-laroche/3a/111/8b9" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><!-- <img class="linkedin button" src="http://www.iconpng.com/png/ios7_icons/linkedin.png">--><%= image_tag "linkedin.png", class: 'linkedin button' %></a>
+	  </div>
 </div>
-
 <div class="row">
 	<div class="large-12 columns"><!-- <img class="emma" src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/8/005/081/0a3/30b727c.jpg"> --><%= image_tag "emma.jpg", class: 'emma' %></div>
 </div>
@@ -29,9 +31,9 @@
 <div class="row">
 	<div class="small-6 columns">
 		<div class="makersquare">
-			<h2>MakerSquare Graduate</h2>
+			<a href="http://www.makersquare.com/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><u><h2>MakerSquare Graduate</h2></u></a>
 			<h4>February 2014</h4>
-			<h4><a href="https://recruit.makersquare.com/?v=elaroche3"><u>Maker Square Profile</u></a></h4>
+			<h4><a href="https://recruit.makersquare.com/?v=elaroche3" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><u>Maker Square Profile</u></a></h4>
 			<p>MakerSquare is a highly selective school that trains qualified professionals to be software developers through an in-person, ten week, immersive bootcamp.</p>
 
 			<p>My classmates and I worked 60 hour weeks learning to build applications using Ruby, Rails, JavaScript, HTML5/CSS3, and responsive front-end frameworks including Foundation and Bootstrap.</p>
@@ -40,13 +42,19 @@
 	<div class="small-6 columns">
 		<div class="makersquare">
 			<h2>Project</h2>
-			<h4><a href ="https://birdwatchin.herokuapp.com/"><u>Bird Watchin' App</u></a></h4>
+			<h4><a href ="https://birdwatchin.herokuapp.com/users/sign_up" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><u>Bird Watchin' App</u></a></h4>
 			<p>Role: Built social media CRUD app for bird watchers to log entries regarding recent bird sightings or view featured birds using HTML5, CSS3, Foundation, SASS, and Devise for authentication</p>
 			<p>Info: Functional after 30 hours of individual programming</p>
-			<p>Link: <a href="https://birdwatchin.herokuapp.com/"><u>https://birdwatchin.herokuapp.com/</u></a></p>
-			<p>Repo: <a href="https://github.com/erlaroche/bird_watch"><u>https://github.com/erlaroche/bird_watch</u></a></p>
+			<p>Link: <a href="https://birdwatchin.herokuapp.com/" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><u>https://birdwatchin.herokuapp.com/</u></a></p>
+			<p>Repo: <a href="https://github.com/erlaroche/bird_watch" onclick="window.open(this.href); return false;" onkeypress="window.open(this.href); return false;"><u>https://github.com/erlaroche/bird_watch</u></a></p>
 		</div>
 	</div>
 </div>
 <div class="opacity"></div>
+	<div class="row">
+		<div class="makersquare">
+			<h2>About Me</h2>
+			<p>I am a yoga enthusiast and dog-lover who can often be found wandering the park near Shoal Creek, swimming in Barton Springs, or  coding in local coffee shops around Austin, Texas.  I am a voracious reader, a passionate environmentalist, and a collector of rocks (especially shiney rocks).</p>
+		</div>
+	</div>
 <div class="opacity"></div>
